@@ -1,0 +1,28 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    background: #f0f0f0;
+    height: 100vh;
+    transition: transform 0.3s ease;
+  }
+  
+  .sidebar-toggle {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+  }
+  
+  .sidebar-menu {
+    margin-top: 50px;
+  }
+  
+  .year-button {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
